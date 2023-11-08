@@ -1,9 +1,9 @@
 package com.Assignment72.Controller;
 
-public class LocationCreateResponse {
+public class LocationPostResponse {
     private String message;
 
-    public LocationCreateResponse(String message) {
+    public LocationPostResponse(String message) {
         this.message = message;
     }
 
