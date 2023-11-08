@@ -8,7 +8,7 @@ import java.util.List;
 @RestController
 public class LocationController {
     @GetMapping("/locations")//GETの実装
-    public List<LocationResponse> LocationList(LocationResponse locationResponse) {
+    public List<LocationResponse> LocationList() {
         List<LocationResponse> LocationList = List.of(
                 new LocationResponse(123456, "新宿店", "田中"),
                 new LocationResponse(123457, "銀座店", "山田"),
